@@ -2,10 +2,10 @@ name: "Collect WARP+ KEYS"
 
 on:
   workflow_dispatch:
-  push:
-    branches: [ "main" ]
-  schedule:
-    - cron: '0 * * * *'
+  # push:
+    # branches: [ "main" ]
+  # schedule:
+    # - cron: '0 * * * *'
 
 jobs:
   build:
